@@ -27,7 +27,7 @@ export const MainBody = (props) => {
 
 
   return (
-    <div style={{backgroundColor:'black'}}>
+    <div style={{backgroundColor:'transparent',height:'1000px'}}>
       <Toolbar />
       {/* //armamos las paginas principales */}
       
