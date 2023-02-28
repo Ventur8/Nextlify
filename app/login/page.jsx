@@ -10,13 +10,13 @@ export default async () => {
     <div style={{alignItems: "center"}}>
       
  
-        {Object.values(providers).map((provider) => (
-          <div key={Spotify}>
+     
+          <div>
            
-            <Login_component name={Spotify} id={spotify}/>
+            <Login_component name={'Spotify'} id={'spotify'}/>
           </div>
           
-        ))}
+        
   
      
     </div>
