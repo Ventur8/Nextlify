@@ -3,9 +3,6 @@ import { Avatar, Button, Grid } from "@mui/material";
 import { fontFamily } from "@mui/system";
 import { signIn } from "next-auth/react";
 import React from "react";
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
-</style> 
 
 export default function Login_component(props) {
   
