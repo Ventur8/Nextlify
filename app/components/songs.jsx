@@ -59,6 +59,7 @@ const Songs = () => {
             />
           </ListItemAvatar>
           <ListItemText
+            color="white"
             primary={item.track.name}
             secondary={
               <React.Fragment>
@@ -74,8 +75,8 @@ const Songs = () => {
             }
         
           />
-         <div style={{marginRight:100}}>{item.track.album.name} </div> 
-         <div><p>{milisToMinutes(item.track.duration_ms)}</p></div>
+         <div style={{color:'white', marginRight:100}}>{item.track.album.name} </div> 
+         <div><p style={{color:"white"}}>{milisToMinutes(item.track.duration_ms)}</p></div>
           
         </ListItemButton>
       </ListItem>
